@@ -1,0 +1,233 @@
+{
+    "_comment": "KHSB Textursammlung v.1 - CC BY-NC 4.0 KHSB-SOLC",
+    "collectionName": "khsb-vc",
+    "tags": ["KHSB"],
+    "collection":[
+        {
+            "name": "KHSB Logo",
+            "tags": ["KHSB"],
+            "imagePath": "logo-khsb.png",
+            "direction": "Down",
+            "color": "grey",
+            "depthOffset": 128
+        },
+        {
+            "name": "Moodle Logo",
+            "tags": ["KHSB"],
+            "imagePath": "logo-moodle.png",
+            "direction": "Down",
+            "color": "white",
+            "depthOffset": 128
+        },
+        {
+            "name": "360er",
+            "tags": ["KHSB","Ornament"],
+            "imagePath": "360.png",
+            "direction": "Down",
+            "color": "blue",
+            "depthOffset": 128
+        },
+        {
+            "name": "Arcade",
+            "tags": ["KHSB"],
+            "imagePath": "arcade.png",
+            "direction": "Down",
+            "color": "red",
+            "collisionGrid": [
+                [ 0 ],
+                [ 1 ]
+            ]
+        },
+        {
+            "name": "Boden Seminar",
+            "tags": ["KHSB","Floor"],
+            "imagePath": "boden_seminar.png",
+            "direction": "Down",
+            "depthOffset": -128,
+            "color": "grey"
+        },
+        {
+            "name": "Boden Grau 5%",
+            "tags": ["KHSB","Floor"],
+            "imagePath": "boden_grau5.png",
+            "direction": "Down",
+            "depthOffset": -128,
+            "color": "grey"
+        },
+        {
+            "name": "Tafel 2er",
+            "tags": ["Education","KHSB"],
+            "imagePath": "tafel1-64x32.png",
+            "direction": "Down",
+            "color": "grey",
+            "depthOffset": -128,
+            "collisionGrid": [
+                [ 1, 1 ]
+            ]
+        },
+        {
+            "name": "Schild-2er",
+            "tags": ["Education","KHSB","Office"],
+            "imagePath": "schild_32x64.png",
+            "direction": "Down",
+            "color": "red",
+            "collisionGrid": [
+                [ 1 ],
+                [ 0 ]
+            ]
+        },
+        {
+            "name": "runder grosser Tisch",
+            "tags": ["KHSB","Table"],
+            "imagePath": "tisch-rund-holz-gross_96x32.png",
+            "direction": "Down",
+            "color": "grey",
+            "collisionGrid": [
+                [ 0, 1, 0]
+            ]
+        },
+        {
+            "name": "Text: 0",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_0.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: 1",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_1.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: 2",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_2.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: 3",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_3.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: 4",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_4.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: 5",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_5.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: 6",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_6.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: 7",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_7.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: 8",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_8.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: 9",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_9.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: BBB",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_bbb.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: EtherPad",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_etherpad.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: Stiller Bereich",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_stillerbereich_64x32.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: Pausenbereich",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_pausenbereich_96x32.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: Umfrage",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_umfrage_64x32.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: Vorlesungssaal",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_vorlesungssaal_96x32.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Text: Startmap Infos",
+            "tags": ["KHSB","Text"],
+            "imagePath": "txt_startinfo_256x32.png",
+            "direction": "Down",
+            "color": "black",
+            "depthOffset": -128
+        },
+        {
+            "name": "Xmas Paket",
+            "tags": ["KHSB"],
+            "imagePath": "xmas-paket.png",
+            "direction": "Down",
+            "color": "red"
+        }
+    ]
+}
